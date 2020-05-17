@@ -23,5 +23,11 @@ hr {
 }
 
 table {
-    border: 1px white;
+    width: 100%;
+}
+
+td,
+th {
+    border: solid 1px white;
+    text-transform: uppercase;
 }
