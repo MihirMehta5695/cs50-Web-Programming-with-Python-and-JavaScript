@@ -1,0 +1,27 @@
+$myBgColor: black;
+$myFontColor: white;
+
+.container {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+* {
+    padding: 10px;
+    background-color: $myBgColor !important;
+    color: $myFontColor !important;
+}
+
+hr {
+    color: $myFontColor !important;
+}
+
+table {
+    border: 1px white;
+}
