@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+* {
+  padding: 10px;
+  background-color: black !important;
+  color: white !important;
+}
+
+/*# sourceMappingURL=first_try.css.map */

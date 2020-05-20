@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+* {
+  padding: 10px;
+  background-color: black !important;
+  color: white !important;
+}
+
+hr {
+  color: white !important;
+}
+
+table {
+  width: 100%;
+}
+
+td,
+th {
+  border: solid 1px white;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=school_life.css.map */
