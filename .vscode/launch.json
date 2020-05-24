@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: Flask",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "application.py",
+                "FLASK_ENV": "development",
+                "FLASK_DEBUG": "1",
+                "DATABASE_URI": "postgres://dqhwkzlubtfthy:5ac85a2822b3b72120fa8e01ae0a36e08bcc37cbca4694e52a39185366199105@ec2-54-247-122-209.eu-west-1.compute.amazonaws.com:5432/d60hivl77cd938"
+            },
+            "args": ["run", "--no-debugger", "--no-reload"],
+            "jinja": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

@@ -1,12 +1,16 @@
 .container {
   text-align: center;
+  padding: 5%;
+  margin-bottom: 5%cd ;
 }
 
 footer {
+  border-top: grey 2px solid;
   position: fixed;
-  bottom: 10px;
+  bottom: 0px;
   text-align: center;
   width: 100%;
+  margin-top: 5%;
 }
 
 * {
@@ -21,6 +25,7 @@ hr {
 
 table {
   width: 100%;
+  border-collapse: collapse;
 }
 
 td,
