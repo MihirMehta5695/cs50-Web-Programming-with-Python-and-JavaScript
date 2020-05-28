@@ -42,3 +42,8 @@ create
 		USER_ID integer references PRJ1_USERS(USER_ID) not null,
 		ISBN_NO integer references PRJ1_BOOKS(ISBN_NO) not null,
 		LOGOUT_TIME timestamp not null);
+	
+select
+	*
+from
+	PRJ1_REVIEWS;
