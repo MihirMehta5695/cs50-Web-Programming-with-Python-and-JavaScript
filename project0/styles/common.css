@@ -1,24 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
-  position: fixed;
-  bottom: 10px;
+  flex: 0 0 50px;
+  /*or just height:50px;*/
+  margin-top: auto;
   text-align: center;
   width: 100%;
+  margin-top: auto;
 }
 
 * {
-  padding: 10px;
+  padding: 1px;
+}
+
+p {
+  margin-bottom: 1px;
+  padding-bottom: 0px;
 }
 
 #currentHappening li {
   font-family: cursive;
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
   body {
     background-color: #F0EAE8 !important;
   }
 }
-
 .center {
   text-align: center;
 }
+
+.cv_font {
+  color: #00e5ff;
+}
+
+.map {
+  display: inline-block;
+  content: "";
+  display: inline;
+  background-image: url("../media/images/icons/map.svg");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+  padding-left: 1rem;
+}
+
+.bi {
+  fill: #00e5ff;
+}
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,6 @@
+[0528/125305:ERROR:main_delegate.cc(766)] Could not load cef_extensions.pak
+[0528/125305:ERROR:browser_gpu_channel_host_factory.cc(133)] Failed to launch GPU process.
+[0528/125306:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0528/125306:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0528/125306:ERROR:cache_util.cc(134)] Unable to move cache folder C:/Users/mbmehta/AppData/Roaming/Brackets/cef_data to C:/Users/mbmehta/AppData/Roaming/Brackets\old_cef_data_000
+[0528/125306:ERROR:cache_creator.cc(129)] Unable to create cache

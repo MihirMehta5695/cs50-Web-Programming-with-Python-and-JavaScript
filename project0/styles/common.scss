@@ -1,0 +1,57 @@
+$europass_font_color:#00e5ff;
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+footer {
+
+    flex: 0 0 50px;/*or just height:50px;*/
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+* {
+    padding: 1px;
+}
+
+p{
+    margin-bottom: 1px;
+    padding-bottom: 0px;
+}
+
+#currentHappening li {
+    font-family: cursive;
+}
+
+@media (max-width:900px) {
+    body {
+        background-color: #F0EAE8 !important;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.cv_font{
+    color: $europass_font_color;
+}
+.map {
+    display: inline-block;
+    content: "";
+    display: inline;
+    background-image: url('../media/images/icons/map.svg');
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    padding-left: 1rem;
+    
+}
+
+.bi {
+    fill:$europass_font_color;
+}
+
+
